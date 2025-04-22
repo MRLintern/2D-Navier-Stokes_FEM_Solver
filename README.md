@@ -9,7 +9,12 @@ This is a work in progress.
 * __Compiler__: `g++ 13.1.0`.
 * `Eigen Library`.
 * `Catch2` for __Unit Testing__.
-
+### If you Don't have Catch2
+* `$ git clone https://github.com/catchorg/Catch2.git`
+* `$ cd Catch2`
+* `$ cmake -B build -S .`
+* `$ sudo cmake --install build`
+  
 ## Model Description
 * The channel is a __2D Rectangular Region__, with __100 nodes__ in both the x- and y-direction, making a __1000 node domain__.
   
